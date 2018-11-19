@@ -6,10 +6,12 @@ import Step from "@material-ui/core/Step";
 import StepButton from "@material-ui/core/StepButton";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import PersonalDetails from "../../containers/Signup/Personal Details/personal-details";
+import AddressDetails from "../../containers/Signup/Address Details/address-details";
 
 const styles = theme => ({
   root: {
-    width: "90%"
+    margin: "40px"
   },
   button: {
     marginRight: theme.spacing.unit
@@ -24,15 +26,15 @@ const styles = theme => ({
 });
 
 function getSteps() {
-  return ["Select campaign settings", "Create an ad group", "Create an ad"];
+  return ["Personal Details", "Address Details", "Confirm details"];
 }
 
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return "Step 1: Select campaign settings...";
+      return <PersonalDetails />;
     case 1:
-      return "Step 2: What is an ad group anyways?";
+      return <AddressDetails />;
     case 2:
       return "Step 3: This is the bit I really care about!";
     default:
