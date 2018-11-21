@@ -73,6 +73,13 @@ export class PersonalDetails extends PureComponent {
               id="mui-theme-provider-outlined-input"
               type="number"
             />
+            <TextField
+              className={classes.margin}
+              label="email"
+              variant="outlined"
+              id="mui-theme-provider-outlined-input"
+              type="email"
+            />
           </MuiThemeProvider>
         </CardActionArea>
         <CardActions>

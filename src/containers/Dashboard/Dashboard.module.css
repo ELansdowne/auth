@@ -2,15 +2,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /* box-shadow: 0 0 72px 73px #000 inset; */
+    box-shadow: 0 0 52px 53px #000 inset;
     flex-direction: column;
-    background-color: black;
+    background-image: url('../../assets/background_blur.jpg');
 }
 
 .main {
     flex-direction: column;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 20%;
 }
 
 .span {

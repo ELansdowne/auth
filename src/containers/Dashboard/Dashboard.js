@@ -9,7 +9,7 @@ export default class Dashboard extends PureComponent {
       <div className={styles.Dashboard}>
         <Header />
         <main className={styles.main}>
-          <div className={styles.subheader}>See what's next.</div>
+          <div className={styles.logo}>See what's next.</div>
           <Link to="/signup">
             <button
               variant="contained"
