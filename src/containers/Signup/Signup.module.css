@@ -1,0 +1,7 @@
+.Signup {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('../../assets/form-wizard-bg.png');
+}

@@ -1,10 +1,11 @@
 import React, { PureComponent } from "react";
 import Header from "../../shared/Header/Header";
 import HorizontalNonLinearStepper from "../../shared/Stepper/Stepper";
+import styles from "./Signup.module.css";
 export class Signup extends PureComponent {
   render() {
     return (
-      <div className={StyleSheet.Signup}>
+      <div className={styles.Signup}>
         <Header />
         <HorizontalNonLinearStepper />
       </div>

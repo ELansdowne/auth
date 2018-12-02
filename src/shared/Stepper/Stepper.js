@@ -11,7 +11,8 @@ import AddressDetails from "../../containers/Signup/Address Details/address-deta
 
 const styles = theme => ({
   root: {
-    margin: "40px"
+    margin: "40px",
+    background: "transparent"
   },
   button: {
     marginRight: theme.spacing.unit
